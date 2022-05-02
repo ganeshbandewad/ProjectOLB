@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite1]">
+  <test parallel="none" name="Nopackage(failed)">
+    <classes>
+      <class name="com.oib.testscript.TC004_DeletService">
+        <methods>
+          <include name="deletRegister"/>
+        </methods>
+      </class> <!-- com.oib.testscript.TC004_DeletService -->
+    </classes>
+  </test> <!-- Nopackage(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
